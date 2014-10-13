@@ -20,7 +20,7 @@ if [[ -z "$epoch_target" ]]; then
   epoch_target=13
 fi
 
-[ -f ~/.profile ] && source ~/.profile
+# [ -f ~/.profile ] && source ~/.profile
 
 # Cancel upgrade if the current user doesn't have write permissions for the
 # oh-my-zsh directory.
